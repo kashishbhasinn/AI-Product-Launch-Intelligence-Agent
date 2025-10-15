@@ -5,9 +5,9 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green)
 ![License](https://img.shields.io/badge/License-MIT-black)
 
-**A streamlined AI intelligence hub for Go-To-Market (GTM) & Product-Marketing teams**, designed to turn scattered public-web data into **concise, evidence-backed launch insights**.
+**A streamlined AI intelligence hub for Go-To-Market (GTM) & Product-Marketing teams** — designed to turn scattered public-web data into **concise, evidence-backed launch insights**.
 
-Built with **Streamlit + Agno (GPT-4o) + Firecrawl**, this app helps you stay ahead of competitors, decode market sentiment, and track launch KPIs, all in one clean dashboard.
+Built with **Streamlit + Agno (GPT-4o) + Firecrawl**, this app helps you stay ahead of competitors, decode market sentiment, and track launch KPIs — all in one clean dashboard.
 
 ---
 
@@ -17,7 +17,7 @@ Three coordinated AI agents work together like your internal GTM strike team:
 
 | Tab | What You Get |
 |-----|---------------|
-| **Competitor Analysis Agent** | Evidence-backed breakdowns of rivals’ latest launches - positioning, differentiators, pricing cues, and channel mix |
+| **Competitor Analysis Agent** | Evidence-backed breakdowns of rivals’ latest launches — positioning, differentiators, pricing cues, and channel mix |
 | **Market Sentiment Agent** | Consolidated social chatter & review themes, split by 🚀 *positive* and ⚠️ *negative* drivers |
 | **Launch Metrics Agent** | Publicly available KPIs — adoption numbers, press coverage, and qualitative “buzz” indicators |
 
@@ -52,8 +52,104 @@ Three coordinated AI agents work together like your internal GTM strike team:
 
 ### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/yourusername/product-launch-intelligence-agent.git
 cd product-launch-intelligence-agent
+```
 
 ### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### 3️⃣ Add API Keys
+
+Create a `.env` file in the root folder:
+
+```bash
+OPENAI_API_KEY=sk-************************
+FIRECRAWL_API_KEY=fc-************************
+```
+
+or paste the keys securely in the sidebar when running the app.
+
+### 4️⃣ Run the App
+
+```bash
+streamlit run product_launch_intelligence_agent.py
+```
+
+Open your browser → [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 🕹️ How to Use
+
+1. Enter API keys in the sidebar (or use `.env`)  
+2. Input a **company / product / hashtag**  
+3. Pick a tab → click **Analyze**  
+4. Wait a few seconds while the agents coordinate  
+5. Review:
+   - ✅ Summary bullets (top-level insights)  
+   - 📊 Expanded deep-dive (tables, callouts, metrics)
+
+---
+
+## 🤖 How It Works
+
+Each analysis type triggers a **specialized AI agent**, coordinated by an Agno Team:
+
+| Agent | Role |
+|--------|------|
+| **Product Launch Analyst** | Evaluates competitive positioning, strategy, and differentiation |
+| **Market Sentiment Specialist** | Analyzes social media chatter and consumer perception |
+| **Launch Metrics Specialist** | Tracks adoption rates, press coverage, and performance signals |
+
+Agents collaborate asynchronously, merging findings into one structured Markdown report.
+
+---
+
+## 🌐 Integrations
+
+- 🔥 [Firecrawl API](https://firecrawl.dev) — for async web crawling  
+- 🧠 [Agno Framework](https://github.com/agno-llm) — multi-agent orchestration  
+- 🖥️ [Streamlit](https://streamlit.io) — for clean, interactive UI  
+
+---
+
+## 🧭 Ideal For
+
+- Product Marketing & GTM Teams  
+- Competitive Intelligence Analysts  
+- Founders tracking category growth  
+- Growth & Strategy Professionals  
+
+---
+
+## 🧰 Example Output
+
+> **Company Analyzed:** Notion AI  
+>
+> **Summary:**  
+> - 🚀 Strong cross-channel buzz after latest AI assistant update  
+> - ⚖️ Positioning focuses on "creative flow" — not raw speed  
+> - 💬 Sentiment: 78% positive mentions around UI polish & pricing fairness  
+> - 📈 Estimated +20% traffic surge post-launch  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to fork, remix, or extend for your own use.
+
+---
+
+## 🌟 Contribute
+
+Pull requests are welcome!  
+If you’d like to improve the agent orchestration or add more data sources, open an issue or reach out.
+
+---
+
+**Made with 💡 and GPT-4o — empowering better product launches.**
