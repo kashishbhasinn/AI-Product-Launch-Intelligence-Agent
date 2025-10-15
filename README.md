@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green)
-![License](https://img.shields.io/badge/License-MIT-black)
 
 **A streamlined AI intelligence hub for Go-To-Market (GTM) & Product-Marketing teams** — designed to turn scattered public-web data into **concise, evidence-backed launch insights**.
 
