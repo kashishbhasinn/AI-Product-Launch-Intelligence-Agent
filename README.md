@@ -139,17 +139,3 @@ Agents collaborate asynchronously, merging findings into one structured Markdown
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** — feel free to fork, remix, or extend for your own use.
-
----
-
-## 🌟 Contribute
-
-Pull requests are welcome!  
-If you’d like to improve the agent orchestration or add more data sources, open an issue or reach out.
-
----
-
-**Made with 💡 and GPT-4o — empowering better product launches.**
