@@ -52,6 +52,8 @@ Three coordinated AI agents work together like your internal GTM strike team:
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/product-launch-intelligence-agent.git
 cd product-launch-intelligence-agent
+
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
