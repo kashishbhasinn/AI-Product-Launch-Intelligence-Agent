@@ -16,7 +16,7 @@ Three coordinated AI agents work together like your internal GTM strike team:
 
 | Tab | What You Get |
 |-----|---------------|
-| **Competitor Analysis Agent** | Evidence-backed breakdowns of rivals’ latest launches — positioning, differentiators, pricing cues, and channel mix |
+| **Competitor Analysis Agent** | Evidence-backed breakdowns of rivals’ latest launches - positioning, differentiators, pricing cues, and channel mix |
 | **Market Sentiment Agent** | Consolidated social chatter & review themes, split by 🚀 *positive* and ⚠️ *negative* drivers |
 | **Launch Metrics Agent** | Publicly available KPIs: adoption numbers, press coverage, and qualitative “buzz” indicators |
 
